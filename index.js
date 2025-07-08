@@ -1,6 +1,8 @@
-const MainClient = require("./bot.js");
+require('dotenv').config(); // Load env variables immediately
+
+const MainClient = require('./bot.js');
 const client = new MainClient();
 
-client.connect()
+client.connect();
 
-module.exports = client; 
+module.exports = client;
