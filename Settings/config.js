@@ -7,7 +7,7 @@ module.exports = {
     },
 
     TOKEN: "" || process.env.TOKEN, //Your Bot Token
-    MONGO_URI: "" || process.env.MONGO_URI, //Mongo Uri
+    MONGO_URI: "mongodb+srv://vox:vox@cluster0.hpjyuwr.mongodb.net/atlasAdmin?retryWrites=true&w=majority" || process.env.MONGO_URI, //Mongo Uri
     EMBED_COLOR: "" || process.env.EMBED_COLOR, //Embed Color
     DEV_ID: "1355170681330991145" || process.env.DEV_ID, //Developer ID
     OWNER_ID: "927208085515280425" || process.env.OWNER_ID, //Owner ID
