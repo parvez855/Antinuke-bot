@@ -1,5 +1,5 @@
 const { EmbedBuilder, AuditLogEvent, PermissionFlagsBits } = require("discord.js");
-const GuildSettings = require("../../Models/Antinuke");
+const GuildSettings = require("../../Models/Antinuke.js");
 
 module.exports = (client) => {
   //=================================== Anti Channel Events ===================================//
